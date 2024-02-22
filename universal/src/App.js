@@ -7,7 +7,8 @@ import './App.css';
 // import ChildAndProp from './childrenAndProps/ChildAndProp';
 // import Dynamic from './dynamicRoutesAndLinks/Dynamic';
 // import Index from './paramtetersToComponent'
-import Main from './getAttributesOfObjectsUsing(e.target)/main';
+// import Main from './getAttributesOfObjectsUsing(e.target)/main';
+import Parent from './usecontextHook/parent';
 function App() {
   return (
     
@@ -31,8 +32,7 @@ function App() {
 
   
   {/* <Index step1 /> */}
-
-<Main/>
+<Parent/>
 
     </div>
   );
