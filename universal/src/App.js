@@ -8,7 +8,8 @@ import './App.css';
 // import Dynamic from './dynamicRoutesAndLinks/Dynamic';
 // import Index from './paramtetersToComponent'
 // import Main from './getAttributesOfObjectsUsing(e.target)/main';
-import Parent from './usecontextHook/parent';
+// import Parent from './usecontextHook/parent';
+import UseLocation from './useLocationHook/parent1';
 function App() {
   return (
     
@@ -32,7 +33,8 @@ function App() {
 
   
   {/* <Index step1 /> */}
-<Parent/>
+ 
+ <UseLocation/>
 
     </div>
   );
