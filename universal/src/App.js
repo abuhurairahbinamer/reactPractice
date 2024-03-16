@@ -10,7 +10,8 @@ import './App.css';
 // import Main from './getAttributesOfObjectsUsing(e.target)/main';
 // import Parent from './usecontextHook/parent';
 // import UseLocation from './useLocationHook/parent1';
-import Js1 from './javascritpWithinMapFunction/js1';
+// import Js1 from './javascritpWithinMapFunction/js1';
+import Partent from './useLocationApply/Partent';
 function App() {
   return (
     
@@ -35,7 +36,7 @@ function App() {
   
   {/* <Index step1 /> */}
  
-    <Js1/>
+    <Partent/>
 
     </div>
   );
