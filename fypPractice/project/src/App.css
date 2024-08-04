@@ -1,0 +1,17 @@
+.div1{
+  min-height: 200px;
+  max-height: 400px;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+input{
+  margin: 2px;
+  display: block;
+  border-radius: 20px;
+  border-color: blue;
+  height: 30px;
+
+}
