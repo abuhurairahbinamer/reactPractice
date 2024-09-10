@@ -11,7 +11,8 @@ import './App.css';
 // import Parent from './usecontextHook/parent';
 // import UseLocation from './useLocationHook/parent1';
 // import Js1 from './javascritpWithinMapFunction/js1';
-import Partent from './useLocationApply/Partent';
+// import Partent from './useLocationApply/Partent';
+import Parent from './useCallBbackHook/Parent';
 function App() {
   return (
     
@@ -33,10 +34,10 @@ function App() {
       </header> */}
   
 
-  
+  <Parent/>
   {/* <Index step1 /> */}
  
-    <Partent/>
+
 
     </div>
   );
