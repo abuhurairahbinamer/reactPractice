@@ -1,0 +1,18 @@
+https://www.programiz.com/online-compiler/0EGVp3axCkNjb
+https://www.programiz.com/online-compiler/1RZUrAqx6CMuo
+https://www.programiz.com/online-compiler/20nMwnJwjUJob
+https://www.programiz.com/online-compiler/6G4rgwAKQNNgH
+https://www.programiz.com/online-compiler/0DMt429uF0H9b
+https://www.programiz.com/online-compiler/8rlP2am2x4mwV
+
+//how to run asynchronous code in sequeunce
+https://www.programiz.com/online-compiler/0wQXyHJu0TssC
+
+
+//understanding the concept of callbacks
+https://www.programiz.com/online-compiler/3hIspHuSHqJ6B
+https://www.programiz.com/online-compiler/68tYFKYcRD8h6
+
+
+//example of parallel processing
+https://www.programiz.com/online-compiler/48tYFGOCfDWYw
