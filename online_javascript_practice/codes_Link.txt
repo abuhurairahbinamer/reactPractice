@@ -15,4 +15,12 @@ https://www.programiz.com/online-compiler/68tYFKYcRD8h6
 
 
 //example of parallel processing
-https://www.programiz.com/online-compiler/48tYFGOCfDWYw
+https://www.programiz.com/online-compiler/4ABBb78OasQky
+
+
+
+//iffe
+https://www.programiz.com/online-compiler/1XKKvcvpIQdFC
+
+//object and fucntion within same name
+https://www.programiz.com/online-compiler/4c22H10S8g03m

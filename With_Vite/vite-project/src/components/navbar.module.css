@@ -1,0 +1,102 @@
+.nav{
+    background-color: red;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5%;
+    
+}
+
+.ca1{
+    color: rgb(57, 57, 212);
+    font-size: 30px;
+}
+.ca2{
+    color: green;
+}
+
+
+.ul{
+    list-style-type: none;
+    display: flex;
+    gap: 100px;
+}
+.ul li{
+    font-size: 20px;
+    
+}
+
+.last{
+    display: flex;
+    gap: 20px;
+}
+
+.last>button:nth-child(1){
+    background-color: rgb(34, 234, 34);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.last>button:nth-child(2){
+    background-color:rgb(242, 45, 45);
+    border-radius: 20px;
+    padding: 10px;
+}
+.last1{
+    display: none;
+}
+
+.nl{
+    /* text-decoration: none; */
+color: rgb(76, 76, 241);
+}
+
+.nl1{
+color:black;
+text-decoration: none;
+}
+@media (max-width:1023px){
+    .last{
+        display: none;
+    }
+    
+    .last1{
+        display: block;
+    }
+
+
+    .ul{
+       display: none;
+
+    }
+    .ll1{
+        display: block;
+    }
+}
+
+
+@media (min-width:1023px){
+    .ll1{
+        display:none ;
+    }
+}
+
+.ll1{
+    width: 100%;
+    text-align: center;
+    background-color: red;
+}
+
+.ll1>li{
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    display: block;
+    font-size: 30px;
+}
+
+.pol{
+    display: block;
+}
