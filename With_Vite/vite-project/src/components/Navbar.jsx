@@ -4,9 +4,14 @@ import { NavLink } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import { useEffect } from 'react'
+import { useRef } from 'react'
+import { FaBars,FaTimes } from 'react-icons/fa'
 const Navbar = () => {
 const [vv,setvv]=useState(false)
-
+const divRef = useRef(null);
+const call=()=>{
+divRef.current.classList.toggle(`${style.ref}`)
+}
 // the commented code is optional
 
 // useEffect(() => {
@@ -47,16 +52,18 @@ const [vv,setvv]=useState(false)
     <button>logout</button>
 </div>
 
-<div onClick={()=>setvv(!vv)} className={style.last1}>hellow</div>
+<div onClick={call} className={style.last1}><FaBars size={30}/></div>
     </div>
     
-{vv && <div className={style.ll1}>
+<div ref={divRef} className={style.ll1}>
     <li><NavLink  className={({isActive})=>`${isActive?style.nl:style.nl1} ${style.pol}`} to='/'> home</NavLink></li>
     <li><NavLink className={({isActive})=>`${isActive?style.nl:style.nl1} ${style.pol}`} to='/about'> about</NavLink></li>
     <li><NavLink className={({isActive})=>`${isActive?style.nl:style.nl1} ${style.pol}`} to='/contact'> contact</NavLink></li>
     <li><NavLink className={({isActive})=>`${isActive?style.nl:style.nl1} ${style.pol}`} to='/view'> view</NavLink></li>
     <li><NavLink className={({isActive})=>`${isActive?style.nl:style.nl1} ${style.pol}`} to='/call'> call</NavLink></li>
-</div>}
+    <li> <button>register</button></li>
+    <li className={style.li}> <button>logout</button></li>
+</div>
     
     </>
   )

@@ -1,0 +1,9 @@
+.foot{
+    position: sticky;
+    bottom: 0;
+    font-size:30px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(48, 48, 251);
+
+}

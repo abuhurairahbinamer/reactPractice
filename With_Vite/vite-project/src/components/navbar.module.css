@@ -5,6 +5,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 0px 5%;
+
+    /* additional */
+
+    position: sticky;
+    top: 0;
     
 }
 
@@ -37,6 +42,19 @@
     border-radius: 20px;
     padding: 10px;
 }
+
+li>button:nth-child(1){
+    background-color: rgb(34, 234, 34);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.li>button:nth-child(1){
+    background-color:rgb(242, 45, 45);
+    border-radius: 20px;
+    padding: 10px;
+}
+
 
 .last>button:nth-child(2){
     background-color:rgb(242, 45, 45);
@@ -72,8 +90,11 @@ text-decoration: none;
     }
     .ll1{
         display: block;
+
     }
 }
+
+
 
 
 @media (min-width:1023px){
@@ -86,7 +107,29 @@ text-decoration: none;
     width: 100%;
     text-align: center;
     background-color: red;
+    transform: translateY(-500px);
+    /* opacity: 0; */
+    transition: ease-in-out 1s;
+    max-height: 0px;
+
+/* additional */
+
+position: sticky;   /* if you dont apply this navbar would suddenly disappear when you click the button agian if you are not on the top  */   
+    top: 10.5%;
+   
 }
+
+
+.ref{
+    /* opacity: 1; */
+    transform: translateY(0px);
+    max-height: 1000px;          /* we could use simple height:auto; but transition will not work with height :auto;  */  
+    transition: ease-in-out 1s;
+    position: sticky;
+    top: 10.5%;
+
+}
+
 
 .ll1>li{
     list-style-type: none;
