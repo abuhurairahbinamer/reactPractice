@@ -34,7 +34,8 @@ divRef.current.classList.toggle(`${style.ref}`)
 
 
   return (
-    <>
+    
+    <div>     {/*if you don,t use this parent div tag ,gap between .ll tag and .nav tag will slightly appear  */}
     <div className={`${style.nav}`}>
 <div className={`${style.ca1}`}>Navbar</div>
 
@@ -65,7 +66,7 @@ divRef.current.classList.toggle(`${style.ref}`)
     <li className={style.li}> <button>logout</button></li>
 </div>
     
-    </>
+    </div>
   )
 }
 

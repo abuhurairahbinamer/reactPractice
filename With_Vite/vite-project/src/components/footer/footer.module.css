@@ -1,9 +1,18 @@
 .foot{
-    position: sticky;
+    position: fixed;
     bottom: 0;
     font-size:30px;
     width: 100%;
     text-align: center;
     background-color: rgb(48, 48, 251);
 
+}
+
+.alter{
+    position: sticky;
+    top: 0;
+    font-size:30px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(48, 48, 251);
 }

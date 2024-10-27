@@ -1,3 +1,4 @@
+
 .nav{
     background-color: red;
     height: 70px;
@@ -10,6 +11,7 @@
 
     position: sticky;
     top: 0;
+    
     
 }
 
@@ -111,7 +113,7 @@ text-decoration: none;
     /* opacity: 0; */
     transition: ease-in-out 1s;
     max-height: 0px;
-
+    
 /* additional */
 
 position: sticky;   /* if you dont apply this navbar would suddenly disappear when you click the button agian if you are not on the top  */   
